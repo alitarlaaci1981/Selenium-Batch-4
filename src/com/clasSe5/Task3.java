@@ -21,7 +21,7 @@ public class Task3 {
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/yunuskazan/Selenium/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.get("https://www.toolsqa.com/automation-practice-form/");

@@ -29,21 +29,21 @@ public class TaskDragAndDrop extends CommonMethods{
 		
 		Actions action = new Actions(driver);
 		
-//		action.dragAndDrop(element1, drop2).perform();
-//		Thread.sleep(2000);
-//		action.dragAndDrop(element2, drop1).perform();
-//		Thread.sleep(2000);
-//		action.dragAndDrop(element3, drop3).perform();
-//		Thread.sleep(2000);
-//		action.dragAndDrop(element4, drop4).perform();
-//		Thread.sleep(2000);
-//		action.dragAndDrop(element1, drop4).perform();
-//		Thread.sleep(2000);
+		action.dragAndDrop(element1, drop2).perform();
+		Thread.sleep(2000);
+		action.dragAndDrop(element2, drop1).perform();
+		Thread.sleep(2000);
+		action.dragAndDrop(element3, drop3).perform();
+		Thread.sleep(2000);
+		action.dragAndDrop(element4, drop4).perform();
+		Thread.sleep(2000);
+		action.dragAndDrop(element1, drop4).perform();
+		Thread.sleep(2000);
 		
 		
-		action.clickAndHold(element1).moveToElement(drop2).release(element1).perform();
-		Thread.sleep(3000);
-		action.clickAndHold(element2).moveToElement(drop1).release(element2).perform();
+//		action.clickAndHold(element1).moveToElement(drop2).release(element1).perform();
+//		Thread.sleep(3000);
+//		action.clickAndHold(element2).moveToElement(drop1).release(element2).perform();
 //		Thread.sleep(3000);
 //		action.clickAndHold(element3).moveToElement(drop3).release(element3).perform();
 //		Thread.sleep(3000);
